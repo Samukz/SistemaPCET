@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowActivated" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowActivated"/>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanel1" alignment="0" min="-2" pref="899" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="TxtPesquisar" min="-2" pref="228" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="btnPesquisar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                          <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblusuario" min="-2" pref="188" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jScrollPane1" min="-2" pref="887" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="265" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnPesquisar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TxtPesquisar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="136" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblusuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="TabelaProdutos">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="10" rowCount="0">
+                    <Column editable="false" title="ID" type="java.lang.Object"/>
+                    <Column editable="false" title="COD SIGMA" type="java.lang.Object"/>
+                    <Column editable="false" title="CODI VIVA RIO" type="java.lang.Object"/>
+                    <Column editable="false" title="ITEM" type="java.lang.Object"/>
+                    <Column editable="false" title="UN" type="java.lang.Object"/>
+                    <Column editable="false" title="UN SG" type="java.lang.Object"/>
+                    <Column editable="false" title="MOD ABAST." type="java.lang.Object"/>
+                    <Column editable="false" title="G GRUPO" type="java.lang.Object"/>
+                    <Column editable="false" title="GRUPO" type="java.lang.Object"/>
+                    <Column editable="false" title="SUBGRUPO" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="autoResizeMode" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="0" type="code"/>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="35" minWidth="35" prefWidth="35" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="280" minWidth="280" prefWidth="280" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TabelaProdutosMouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel18">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagens/LOGO MENOR.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TxtPesquisar">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtPesquisarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnPesquisar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pesquisar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPesquisarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pesquisar por item"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Usu&#xe1;rio:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblusuario">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="ff" red="33" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="cc" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Teste"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="189" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="cbGrandeGrupo" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cbGrupo" alignment="0" min="-2" pref="326" max="-2" attributes="0"/>
+                              <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="cbSubGrupo" alignment="1" min="-2" pref="249" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="btnCadastrar" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cbModalidade" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
+                              <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="TxtId" min="-2" pref="36" max="-2" attributes="0"/>
+                                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TxtCodSigma" min="-2" pref="99" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TxtCodJDE" min="-2" pref="102" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TxtItem" alignment="0" min="-2" pref="356" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cbUnMedida" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jLabel8" max="32767" attributes="0"/>
+                                      <Component id="cbSiglaUn" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="0" pref="15" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="TxtId" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="TxtCodSigma" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="TxtItem" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="TxtCodJDE" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="cbSiglaUn" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbUnMedida" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="31" pref="31" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cbModalidade" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cbGrandeGrupo" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cbGrupo" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="cbSubGrupo" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnCadastrar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="8" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="TxtId">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtIdActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ID:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C&#xf3;digo Sigma"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TxtCodSigma">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C&#xf3;digo Viva Rio"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TxtCodJDE">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Item"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TxtItem">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtItemActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Unidade Medida"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sigla UM"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Modalidade de Abastecimento"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Grande Grupo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Grupo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sub-Grupo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Excluir"/>
+            <Property name="actionCommand" type="java.lang.String" value=""/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Editar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCadastrar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Salvar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCadastrarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbUnMedida">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="99">
+                <StringItem index="0" value="ADESIVO"/>
+                <StringItem index="1" value="AEROSSOL"/>
+                <StringItem index="2" value="AMPOLA"/>
+                <StringItem index="3" value="ANO"/>
+                <StringItem index="4" value="APLICADOR"/>
+                <StringItem index="5" value="BALDE"/>
+                <StringItem index="6" value="BANDEJA"/>
+                <StringItem index="7" value="BARRA"/>
+                <StringItem index="8" value="BAST&#xc3;O"/>
+                <StringItem index="9" value="BISNAGA"/>
+                <StringItem index="10" value="BLISTER"/>
+                <StringItem index="11" value="BLOCO"/>
+                <StringItem index="12" value="BOBINA"/>
+                <StringItem index="13" value="BOLSA"/>
+                <StringItem index="14" value="BOMBONA"/>
+                <StringItem index="15" value="CAIXA"/>
+                <StringItem index="16" value="CANETA"/>
+                <StringItem index="17" value="CAPSULA"/>
+                <StringItem index="18" value="CARTELA"/>
+                <StringItem index="19" value="CARTUCHO"/>
+                <StringItem index="20" value="CENTILIT"/>
+                <StringItem index="21" value="CENTO"/>
+                <StringItem index="22" value="CHAPA"/>
+                <StringItem index="23" value="CILINDRO"/>
+                <StringItem index="24" value="COMPRIMIDO"/>
+                <StringItem index="25" value="CONJUNTO"/>
+                <StringItem index="26" value="COPO"/>
+                <StringItem index="27" value="CREME"/>
+                <StringItem index="28" value="CREME VAGINAL"/>
+                <StringItem index="29" value="DETERMINA&#xc7;&#xc3;O"/>
+                <StringItem index="30" value="DISCO"/>
+                <StringItem index="31" value="DOSE"/>
+                <StringItem index="32" value="DRAGEA"/>
+                <StringItem index="33" value="DUZIA"/>
+                <StringItem index="34" value="EMBALAGEM"/>
+                <StringItem index="35" value="ENVELOPE"/>
+                <StringItem index="36" value="ESPIGA"/>
+                <StringItem index="37" value="ESTOJO"/>
+                <StringItem index="38" value="FARDO"/>
+                <StringItem index="39" value="FICHA"/>
+                <StringItem index="40" value="FLACONETE"/>
+                <StringItem index="41" value="FOLHA"/>
+                <StringItem index="42" value="FRASCO"/>
+                <StringItem index="43" value="FRASCO/AMPOLA"/>
+                <StringItem index="44" value="GAL&#xc3;O"/>
+                <StringItem index="45" value="GARRAFA"/>
+                <StringItem index="46" value="GARRAF&#xc3;O"/>
+                <StringItem index="47" value="GRAMA"/>
+                <StringItem index="48" value="JOGO(S)"/>
+                <StringItem index="49" value="KILO CALORIA"/>
+                <StringItem index="50" value="KIT"/>
+                <StringItem index="51" value="LATA"/>
+                <StringItem index="52" value="LATEX"/>
+                <StringItem index="53" value="LITRO"/>
+                <StringItem index="54" value="MA&#xc7;O"/>
+                <StringItem index="55" value="MESES"/>
+                <StringItem index="56" value="METRO C&#xda;BICO"/>
+                <StringItem index="57" value="METRO QUADRADO"/>
+                <StringItem index="58" value="METROS"/>
+                <StringItem index="59" value="MILHEIRO"/>
+                <StringItem index="60" value="MILIGRAMA"/>
+                <StringItem index="61" value="MILILITRO"/>
+                <StringItem index="62" value="&#xd3;VULO"/>
+                <StringItem index="63" value="PACK"/>
+                <StringItem index="64" value="PACOTE"/>
+                <StringItem index="65" value="PARES"/>
+                <StringItem index="66" value="PASTILHA"/>
+                <StringItem index="67" value="P&#xc9;"/>
+                <StringItem index="68" value="PE&#xc7;A"/>
+                <StringItem index="69" value="PLACA"/>
+                <StringItem index="70" value="POMADA"/>
+                <StringItem index="71" value="POTE"/>
+                <StringItem index="72" value="PRODUTO"/>
+                <StringItem index="73" value="QUILO"/>
+                <StringItem index="74" value="REFEI&#xc7;&#xd5;ES"/>
+                <StringItem index="75" value="REFIL"/>
+                <StringItem index="76" value="RESMAS"/>
+                <StringItem index="77" value="ROLO"/>
+                <StringItem index="78" value="SABONETE"/>
+                <StringItem index="79" value="SACHE"/>
+                <StringItem index="80" value="SACH&#xca;"/>
+                <StringItem index="81" value="SACO"/>
+                <StringItem index="82" value="SERINGA"/>
+                <StringItem index="83" value="SERVI&#xc7;OS"/>
+                <StringItem index="84" value="SOLU&#xc7;&#xc3;O ORAL"/>
+                <StringItem index="85" value="SUPOSITORIO"/>
+                <StringItem index="86" value="SUSPENS&#xc3;O ORAL"/>
+                <StringItem index="87" value="TABLETE"/>
+                <StringItem index="88" value="TAL&#xc3;O"/>
+                <StringItem index="89" value="TAMBOR"/>
+                <StringItem index="90" value="TAXAS"/>
+                <StringItem index="91" value="TESTE"/>
+                <StringItem index="92" value="TETRAPACK"/>
+                <StringItem index="93" value="TONELADA"/>
+                <StringItem index="94" value="TUBETE"/>
+                <StringItem index="95" value="TUBO"/>
+                <StringItem index="96" value="UNIDADE"/>
+                <StringItem index="97" value="VIDRO"/>
+                <StringItem index="98" value="XAROPE"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbUnMedidaActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbSiglaUn">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="99">
+                <StringItem index="0" value="AD"/>
+                <StringItem index="1" value="AE"/>
+                <StringItem index="2" value="AP"/>
+                <StringItem index="3" value="AN "/>
+                <StringItem index="4" value="AL"/>
+                <StringItem index="5" value="BD"/>
+                <StringItem index="6" value="BJ"/>
+                <StringItem index="7" value="BR"/>
+                <StringItem index="8" value="BA"/>
+                <StringItem index="9" value="BI"/>
+                <StringItem index="10" value="BT"/>
+                <StringItem index="11" value="BL"/>
+                <StringItem index="12" value="BN"/>
+                <StringItem index="13" value="BS"/>
+                <StringItem index="14" value="BB"/>
+                <StringItem index="15" value="CX"/>
+                <StringItem index="16" value="CN"/>
+                <StringItem index="17" value="CS"/>
+                <StringItem index="18" value="CR"/>
+                <StringItem index="19" value="CA"/>
+                <StringItem index="20" value="CE"/>
+                <StringItem index="21" value="CT"/>
+                <StringItem index="22" value="CH"/>
+                <StringItem index="23" value="CL"/>
+                <StringItem index="24" value="CP"/>
+                <StringItem index="25" value="CJ"/>
+                <StringItem index="26" value="CO"/>
+                <StringItem index="27" value="CM"/>
+                <StringItem index="28" value="CV"/>
+                <StringItem index="29" value="DE"/>
+                <StringItem index="30" value="DI"/>
+                <StringItem index="31" value="DS"/>
+                <StringItem index="32" value="DR"/>
+                <StringItem index="33" value="DZ"/>
+                <StringItem index="34" value="EM"/>
+                <StringItem index="35" value="EN "/>
+                <StringItem index="36" value="ES"/>
+                <StringItem index="37" value="ET"/>
+                <StringItem index="38" value="FD"/>
+                <StringItem index="39" value="FI"/>
+                <StringItem index="40" value="FC"/>
+                <StringItem index="41" value="FL"/>
+                <StringItem index="42" value="FR"/>
+                <StringItem index="43" value="FA"/>
+                <StringItem index="44" value="GL"/>
+                <StringItem index="45" value="GF"/>
+                <StringItem index="46" value="GO"/>
+                <StringItem index="47" value="G"/>
+                <StringItem index="48" value="JG"/>
+                <StringItem index="49" value="KC"/>
+                <StringItem index="50" value="KT"/>
+                <StringItem index="51" value="LA"/>
+                <StringItem index="52" value="LX"/>
+                <StringItem index="53" value="LT"/>
+                <StringItem index="54" value="MC"/>
+                <StringItem index="55" value="ME"/>
+                <StringItem index="56" value="M3"/>
+                <StringItem index="57" value="M2"/>
+                <StringItem index="58" value="M"/>
+                <StringItem index="59" value="MI"/>
+                <StringItem index="60" value="MG"/>
+                <StringItem index="61" value="ML"/>
+                <StringItem index="62" value="OV"/>
+                <StringItem index="63" value="PK"/>
+                <StringItem index="64" value="PT"/>
+                <StringItem index="65" value="PR"/>
+                <StringItem index="66" value="PA"/>
+                <StringItem index="67" value="PE"/>
+                <StringItem index="68" value="PC"/>
+                <StringItem index="69" value="PL"/>
+                <StringItem index="70" value="PM"/>
+                <StringItem index="71" value="PO"/>
+                <StringItem index="72" value="PD"/>
+                <StringItem index="73" value="KG"/>
+                <StringItem index="74" value="RE"/>
+                <StringItem index="75" value="RF"/>
+                <StringItem index="76" value="RS"/>
+                <StringItem index="77" value="RL"/>
+                <StringItem index="78" value="SB"/>
+                <StringItem index="79" value="AS"/>
+                <StringItem index="80" value="SA "/>
+                <StringItem index="81" value="SC"/>
+                <StringItem index="82" value="SR"/>
+                <StringItem index="83" value="SE"/>
+                <StringItem index="84" value="SO"/>
+                <StringItem index="85" value="SP"/>
+                <StringItem index="86" value="SU"/>
+                <StringItem index="87" value="TT"/>
+                <StringItem index="88" value="TL"/>
+                <StringItem index="89" value="TA"/>
+                <StringItem index="90" value="TX"/>
+                <StringItem index="91" value="TE"/>
+                <StringItem index="92" value="TP"/>
+                <StringItem index="93" value="T"/>
+                <StringItem index="94" value="TU"/>
+                <StringItem index="95" value="TB"/>
+                <StringItem index="96" value="UN "/>
+                <StringItem index="97" value="VD"/>
+                <StringItem index="98" value="XA"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbSiglaUnActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbModalidade">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="REGULAR"/>
+                <StringItem index="1" value="SAZONAL"/>
+                <StringItem index="2" value="ESTOC&#xc1;VEIS"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbGrandeGrupo">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="MED"/>
+                <StringItem index="1" value="MAT"/>
+                <StringItem index="2" value="NUT"/>
+                <StringItem index="3" value="HIG"/>
+                <StringItem index="4" value="EXP"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbGrupo">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="21">
+                <StringItem index="0" value="MEDICAMENTOS, CORRELATOS E SANEANTES"/>
+                <StringItem index="1" value="MATERIAIS HOSPITALARES"/>
+                <StringItem index="2" value="MATERIAIS ODONTOLOGICOS"/>
+                <StringItem index="3" value="MATERIAIS DE LABORATORIO E COLETA"/>
+                <StringItem index="4" value="MATERIAIS DE RAIO-X, ULTRASSONOGRAFIA E ELETROCARDIOGRAMA E CORRELATOS"/>
+                <StringItem index="5" value="MATERIAIS DE CONSUMO E EXPEDIENTE"/>
+                <StringItem index="6" value="IMPRESSOS"/>
+                <StringItem index="7" value="EQUIPAMENTOS HOSPITALARES"/>
+                <StringItem index="8" value="NUTRICAO E DIETETICA"/>
+                <StringItem index="9" value="MATERIAIS DE LIMPEZA E HIGIENIZA&#xc7;&#xc3;O "/>
+                <StringItem index="10" value="GENEROS ALIMENTICIOS"/>
+                <StringItem index="11" value="MOBILIARIO"/>
+                <StringItem index="12" value="TECNOLOGIA E COMUNICA&#xc7;&#xc3;O"/>
+                <StringItem index="13" value="UNIFORMES E ROUPARIA"/>
+                <StringItem index="14" value="MATERIAIS DE MANUTEN&#xc7;AO E OBRAS"/>
+                <StringItem index="15" value="IDENTIFICA&#xc7;&#xc3;O VISUAL"/>
+                <StringItem index="16" value="MATERIAL ESPORTIVO / EDUCATIVO"/>
+                <StringItem index="17" value="ITENS DE HOTELARIA E CORRELATOS"/>
+                <StringItem index="18" value="PE&#xc7;AS, COMPONENTES E ACESS&#xd3;RIOS PARA VE&#xcd;CULOS AUTOMOTORES E OUTROS FINS"/>
+                <StringItem index="19" value="ITENS DE AGROPECU&#xc1;RIA"/>
+                <StringItem index="20" value="EQUIPAMENTOS DE PROTE&#xc7;&#xc3;O INDIVIDUAL - EPI"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbGrupoActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbSubGrupo">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="208">
+                <StringItem index="0" value="ANESTESICOS LOCAIS"/>
+                <StringItem index="1" value="ANTIDOTOS"/>
+                <StringItem index="2" value="ANTIESCABIOSE/ANTIPEDICULOSE/ANTIPARASITARIO"/>
+                <StringItem index="3" value="ANTIFUNGICOS"/>
+                <StringItem index="4" value="ANTIGOTOSOS"/>
+                <StringItem index="5" value="ANTIINFLAMATORIOS ESTEROIDES"/>
+                <StringItem index="6" value="ANTIMICROBIANOS"/>
+                <StringItem index="7" value="ANTIPROTOZOARIOS"/>
+                <StringItem index="8" value="ANTIVIROTICOS"/>
+                <StringItem index="9" value="ACV - ANTIAGREGANTES"/>
+                <StringItem index="10" value="ACV - ANTIANGINOSOS"/>
+                <StringItem index="11" value="ACV - ANTIARRITMICOS"/>
+                <StringItem index="12" value="ACV - ANTIHIPERTENSIVOS"/>
+                <StringItem index="13" value="ACV - ANTILIPEMICOS"/>
+                <StringItem index="14" value="ACV - CARDIOTONICOS"/>
+                <StringItem index="15" value="ACV - FIBRINOLITICOS"/>
+                <StringItem index="16" value="ACV - VASSOPRESSORES"/>
+                <StringItem index="17" value="ADG - ANTIEMETICOS"/>
+                <StringItem index="18" value="ADG - ANTIESPASMODICOS"/>
+                <StringItem index="19" value="ADG - ANTIFISETICOS"/>
+                <StringItem index="20" value="ADG - ANTIULCEROSOS"/>
+                <StringItem index="21" value="ADG - LAXANTES"/>
+                <StringItem index="22" value="ACV - ANTICOAGULANTES"/>
+                <StringItem index="23" value="ARP - BRONCODILATADORES"/>
+                <StringItem index="24" value="ARP - FLUIDIFICANTES"/>
+                <StringItem index="25" value="DERMATOLOGICOS"/>
+                <StringItem index="26" value="DIURETICOS"/>
+                <StringItem index="27" value="ELETROLITOS"/>
+                <StringItem index="28" value="HORMONIOS"/>
+                <StringItem index="29" value="ANTIHEMORRAGICOS E HEMOSTATICOS"/>
+                <StringItem index="30" value="ANTIHISTAMINICOS"/>
+                <StringItem index="31" value="EXPANSORES PLASMATICOS"/>
+                <StringItem index="32" value="HIPERGLICEMIANTES"/>
+                <StringItem index="33" value="HIPOGLICEMIANTES"/>
+                <StringItem index="34" value="REIDRATANTES E DILUENTES"/>
+                <StringItem index="35" value="SNC - ANALGESICOS NARCOTICOS"/>
+                <StringItem index="36" value="SNC - ANALGESICOS E AINES"/>
+                <StringItem index="37" value="SNC - ANESTESICOS GERAIS"/>
+                <StringItem index="38" value="SNC - ANSIOLITICOS E HIPNOTICOS"/>
+                <StringItem index="39" value="SNC - ANTICONVULSIVANTES"/>
+                <StringItem index="40" value="SNC - ANTIPSICOTICOS"/>
+                <StringItem index="41" value="SUPLEMENTOS E VITAMINAS"/>
+                <StringItem index="42" value="SANEANTES"/>
+                <StringItem index="43" value="CORRELATOS"/>
+                <StringItem index="44" value="BLOQUEADOR NEUROMUSCULAR / RELAXANTES MUSCULARES"/>
+                <StringItem index="45" value="AGENTES ADRENERGICOS DE A&#xc7;AO CENTRAL"/>
+                <StringItem index="46" value="ANTIACIDOS"/>
+                <StringItem index="47" value="FARMACOS DE A&#xc7;AO UTERINA"/>
+                <StringItem index="48" value="SNC - OUTROS"/>
+                <StringItem index="49" value="ARP -OUTROS"/>
+                <StringItem index="50" value="PREPARA&#xc7;OES OFTALMICAS"/>
+                <StringItem index="51" value="REVERSORES DO BLOQUEIO NEUROMUSCULAR"/>
+                <StringItem index="52" value="SOROS E IMUNOGLOBULINAS"/>
+                <StringItem index="53" value="VASODILATADORES"/>
+                <StringItem index="54" value="SNC - ANTIDEPRESSIVOS"/>
+                <StringItem index="55" value="ANTIPARKINSONIANOS E ANTICOLINERGICOS"/>
+                <StringItem index="56" value="ADG - OUTROS"/>
+                <StringItem index="57" value="OUTROS MEDICAMENTOS, CORRELATOS E SANEANTES"/>
+                <StringItem index="58" value="OUTROS MEDICAMENTOS PROVISORIOS"/>
+                <StringItem index="59" value="ESTIMULANTE DO SNC"/>
+                <StringItem index="60" value="ANTINEOPLASICOS"/>
+                <StringItem index="61" value="USO VETERINARIO"/>
+                <StringItem index="62" value="FITAS ADESEIVAS HOSPITALARES"/>
+                <StringItem index="63" value="AGULHAS E CATETERES ENDOVENOSOS, PERFURO-CORTANTES E CORRELATOS"/>
+                <StringItem index="64" value="CATETERERES E COLETORES PARA VIAS URINARIAS"/>
+                <StringItem index="65" value="COMPRESSAS, ATADURAS E CORRELATOS"/>
+                <StringItem index="66" value="CURATIVOS, COBERTURAS ESPECIAIS E SIMILARES"/>
+                <StringItem index="67" value="DRENOS E CORRELATOS"/>
+                <StringItem index="68" value="MATERIAIS PARA MONITORAMENTO CARDIACO"/>
+                <StringItem index="69" value="EQUIPAMENTOS DE PROTE&#xc7;AO INDIVIDUAL"/>
+                <StringItem index="70" value="EQUIPOS E EXTENSORES"/>
+                <StringItem index="71" value="FIOS DE SUTURA"/>
+                <StringItem index="72" value="KITS PARA PROCEDIMENTOS GERAIS"/>
+                <StringItem index="73" value="LUVAS PARA REALIZA&#xc7;AO DE PROCEDIMENTOS"/>
+                <StringItem index="74" value="MATERIAIS  PARA VIAS AEREAS, OXIGENOTERAPIA E SUPORTE VENTILATORIO"/>
+                <StringItem index="75" value="MATERIAIS PARA AUXILIO DIAGNOSTICO"/>
+                <StringItem index="76" value="MATERIAIS PARA DEGERMA&#xc7;AO"/>
+                <StringItem index="77" value="MATERIAIS PARA ESTERILIZA&#xc7;AO"/>
+                <StringItem index="78" value="FRALDAS, ABSORVENTES HIGIENICOS E SIMILARES"/>
+                <StringItem index="79" value="MATERIAIS PARA ULTRASSONOGRAFIA E ELETROCARDIOGRAMA E CORRELATOS"/>
+                <StringItem index="80" value="MATERIAIS PARA APARELHO DIGESTIVO"/>
+                <StringItem index="81" value="MATERIAIS PARA REDE DE FRIO"/>
+                <StringItem index="82" value="SERINGAS"/>
+                <StringItem index="83" value="OUTROS MATERIAIS HOSPITALARES"/>
+                <StringItem index="84" value="MATERIAIS PARA ORTOPEDIA"/>
+                <StringItem index="85" value="INSTRUMENTAIS HOSPITALARES E CORRELATOS "/>
+                <StringItem index="86" value="IDENTIFICA&#xc7;AO DE PACIENTES"/>
+                <StringItem index="87" value="OUTROS MATERIAIS PARA CENTRO CIRURGICO"/>
+                <StringItem index="88" value="BROCAS ODONTOLOGICAS"/>
+                <StringItem index="89" value="MATERIAIS PARA RESTAURA&#xc7;AO DEFINITIVA"/>
+                <StringItem index="90" value="CIMENTOS CIRURGICOS"/>
+                <StringItem index="91" value="MATERIAIS PARA ACABAMENTO E POLIMENTO"/>
+                <StringItem index="92" value="MATERIAIS  ODONTOLOGICOS AUXILIARES"/>
+                <StringItem index="93" value="MATERIAIS DE PREVEN&#xc7;AO"/>
+                <StringItem index="94" value="AGULHAS ODONTOLOGICAS"/>
+                <StringItem index="95" value="KITS DE HIGIENE ORAL"/>
+                <StringItem index="96" value="OUTROS MATERIAIS ODONTOLOGICOS"/>
+                <StringItem index="97" value="MATERIAIS EDUCATIVOS (ODONTOLOGIA)"/>
+                <StringItem index="98" value="INSTRUMENTAIS ODONTOLOGICOS"/>
+                <StringItem index="99" value="EQUIPAMENTOS ODONTOLOGICOS"/>
+                <StringItem index="100" value="MEDICAMENTOS DE USO ODONTOLOGICO E MATERIAIS PARA TERAPEUTICA"/>
+                <StringItem index="101" value="FRASCOS E TUBOS PARA COLETA"/>
+                <StringItem index="102" value="MATERIAIS PARA COLETA"/>
+                <StringItem index="103" value="INSUMOS PARA LABORAT&#xd3;RIO"/>
+                <StringItem index="104" value="KITS DE TESTAGEM R&#xc1;PIDA"/>
+                <StringItem index="105" value="OUTROS MATERIAIS DE LABORAT&#xd3;RIO"/>
+                <StringItem index="106" value="PELICULAS DE RAIO-X "/>
+                <StringItem index="107" value="PELICULAS DE RAIO-X ODONTOLOGICO"/>
+                <StringItem index="108" value="FIXADORES E REVELADORES PARA PELICULAS DE RAIO-X"/>
+                <StringItem index="109" value="FIXADORES E REVELADORES PARA PELICULAS ODONTOLOGICAS"/>
+                <StringItem index="110" value="CORRELATOS"/>
+                <StringItem index="111" value="MATERIAIS DE ESCRITORIO"/>
+                <StringItem index="112" value="PILHAS E BATERIAS"/>
+                <StringItem index="113" value="OUTROS MATERIAIS DE CONSUMO E EXPEDIENTE"/>
+                <StringItem index="114" value="MATERIAIS DESCARTAVEIS"/>
+                <StringItem index="115" value="COMBUST&#xcd;VEIS E DERIVADOS"/>
+                <StringItem index="116" value="IMPRESSOS REGULARES APS"/>
+                <StringItem index="117" value="IMPRESSOS REGULARES UPAS"/>
+                <StringItem index="118" value="OUTROS IMPRESSOS"/>
+                <StringItem index="119" value="IMPRESSOS REGULARES SAMU"/>
+                <StringItem index="120" value="IMPRESSOS PARATY"/>
+                <StringItem index="121" value="EQUIPAMENTOS HOSPITALARES DE PEQUENO PORTE E ACESSORIOS"/>
+                <StringItem index="122" value="EQUIPAMENTO DE SA&#xda;DE"/>
+                <StringItem index="123" value="ACESSORIOS E PE&#xc7;AS PARA EQUIPAMENTOS HOSPITALARES"/>
+                <StringItem index="124" value="NUTRI&#xc7;&#xc3;O ENTERAL"/>
+                <StringItem index="125" value="NUTRI&#xc7;&#xc3;O PARENTERAL"/>
+                <StringItem index="126" value="F&#xd3;RMULAS L&#xc1;CTEAS"/>
+                <StringItem index="127" value="M&#xd3;DULOS E SUPLEMENTOS ALIMENTARES"/>
+                <StringItem index="128" value="MATERIAIS DESCARTAVEIS"/>
+                <StringItem index="129" value="QUIMICOS"/>
+                <StringItem index="130" value="OUTROS MATERIAIS DE HIGIENIZA&#xc7;AO"/>
+                <StringItem index="131" value="MATERIAS HIGIENE DE COZINHA"/>
+                <StringItem index="132" value="EQUIPAMENTOS DE PROTE&#xc7;AO INDIVIDUAL PARA HIGIENIZA&#xc7;AO"/>
+                <StringItem index="133" value="EQUIPAMENTOS DE HIGIENIZA&#xc7;AO"/>
+                <StringItem index="134" value="SANEANTES"/>
+                <StringItem index="135" value="ESTOCAVEIS - SECOS"/>
+                <StringItem index="136" value="CARNES"/>
+                <StringItem index="137" value="HORTIFRUTI"/>
+                <StringItem index="138" value="CONGELADOS"/>
+                <StringItem index="139" value="FRIOS E LATIC&#xcd;NIOS"/>
+                <StringItem index="140" value="P&#xc3;ES"/>
+                <StringItem index="141" value="BEBIDAS"/>
+                <StringItem index="142" value="MOBILIARIO GERAL"/>
+                <StringItem index="143" value="MOBILIARIO DE SAUDE"/>
+                <StringItem index="144" value="MATERIAIS EDUCATIVOS "/>
+                <StringItem index="145" value="ELETRODOMESTICO"/>
+                <StringItem index="146" value="ELETROELETRONICO"/>
+                <StringItem index="147" value="ELETROPORTATIL"/>
+                <StringItem index="148" value="PE&#xc7;AS PARA MOBILIARIO"/>
+                <StringItem index="149" value="CABEAMENTO ESTRUTURADO"/>
+                <StringItem index="150" value="PERIF&#xc9;RICOS"/>
+                <StringItem index="151" value="EQUIPAMENTOS DE TELEFONIA E ACESS&#xd3;RIOS"/>
+                <StringItem index="152" value="COMPUTADOR"/>
+                <StringItem index="153" value="SOFTWARE"/>
+                <StringItem index="154" value="OUTROS ITENS DE INFORM&#xc1;TICA"/>
+                <StringItem index="155" value="FOTOGRAFIA"/>
+                <StringItem index="156" value="MULTIM&#xcd;DIA "/>
+                <StringItem index="157" value="VIDEO GAMES E ACESS&#xd3;RIOS"/>
+                <StringItem index="158" value="UNIFORME DE HIGIENIZA&#xc7;&#xc3;O"/>
+                <StringItem index="159" value="UNIFORME DE PORTARIA"/>
+                <StringItem index="160" value="OUTROS ITENS DE VESTU&#xc1;RIO"/>
+                <StringItem index="161" value="UNIFORMES E ACESS&#xd3;RIOS PARA APS"/>
+                <StringItem index="162" value="ROUPARIA DE COZINHA"/>
+                <StringItem index="163" value="JOVEM APRENDIZ"/>
+                <StringItem index="164" value="EQUIPAMENTOS DE PROTE&#xc7;&#xc3;O INDIVIDUAL"/>
+                <StringItem index="165" value="UNIFORMES DE CONSERVA&#xc7;&#xc3;O E MANUTEN&#xc7;&#xc3;O"/>
+                <StringItem index="166" value="UNIFORMES E ACESS&#xd3;RIOS SAMU"/>
+                <StringItem index="167" value="UNIFORME DE ALMOXARIFADO"/>
+                <StringItem index="168" value="TESTE"/>
+                <StringItem index="169" value="UNIFORMES UPAS SESRJ"/>
+                <StringItem index="170" value="MATERIAIS ELETRICOS"/>
+                <StringItem index="171" value="MATERIAIS HIDRAULICOS"/>
+                <StringItem index="172" value="MATERIAIS DE PINTURA"/>
+                <StringItem index="173" value="MATERIAIS PARA FORROS"/>
+                <StringItem index="174" value="FERRAMENTAS"/>
+                <StringItem index="175" value="OUTROS MATERIAIS PARA MANUTEN&#xc7;&#xc3;O"/>
+                <StringItem index="176" value="MATERIAIS DE REFRIGERA&#xc7;&#xc3;O"/>
+                <StringItem index="177" value="EQUIPAMENTO DE PROTE&#xc7;&#xc3;O INDIVIDUAL"/>
+                <StringItem index="178" value="PISOS E REVESTIMENTOS"/>
+                <StringItem index="179" value="EQUIPAMENTOS EL&#xc9;TRICOS"/>
+                <StringItem index="180" value="MATERIAIS DE SOLDAGEM"/>
+                <StringItem index="181" value="PROGRAMA&#xc7;&#xc3;O VISUAL PARA AS UNIDADES DA APS"/>
+                <StringItem index="182" value="OUTROS ITENS PARA PROGRAMA&#xc7;&#xc3;O VISUAL"/>
+                <StringItem index="183" value="PROGRAMA&#xc7;&#xc3;O VISUAL PARA TS RIO"/>
+                <StringItem index="184" value="BANDEIRAS"/>
+                <StringItem index="185" value="IDENTIFICA&#xc7;&#xc3;O VISUAL CIAS ALEM&#xc3;O"/>
+                <StringItem index="186" value="MATERIAL ESPORTIVO - FUTEBOL"/>
+                <StringItem index="187" value="MATERIAL EDUCATIVO - BRINQUEDOS"/>
+                <StringItem index="188" value="MATERIAL PEDAGOGICO"/>
+                <StringItem index="189" value="MATERIAL ESPORTIVO - ARTES MARCIAIS"/>
+                <StringItem index="190" value="INSTRUMENTOS MUSICAIS"/>
+                <StringItem index="191" value="OUTROS MATERIAIS ESPORTIVOS"/>
+                <StringItem index="192" value="COPA / COZINHA"/>
+                <StringItem index="193" value="CAMA / MESA / BANHO E CORRELATOS"/>
+                <StringItem index="194" value="PERFUMARIA/HIGI&#xca;NE PESSOAL"/>
+                <StringItem index="195" value="AUTOMOVEL"/>
+                <StringItem index="196" value="MEDICAMENTOS DE USO VETERIN&#xc1;RIO E CORRELATOS"/>
+                <StringItem index="197" value="FERRAMENTAS DE AGROPECU&#xc1;RIA E CORRELATOS"/>
+                <StringItem index="198" value="RA&#xc7;&#xd5;ES E CORRELATOS"/>
+                <StringItem index="199" value="EQUIPAMENTOS PARA USO VETERINARIO"/>
+                <StringItem index="200" value="OUTROS ITENS PARA USO VETERINARIO"/>
+                <StringItem index="201" value="OUTROS ITENS DE AGROPECUARIA"/>
+                <StringItem index="202" value="CAL&#xc7;ADO DE SEGURAN&#xc7;A"/>
+                <StringItem index="203" value="CAPACETE E ACESS&#xd3;RIOS"/>
+                <StringItem index="204" value="LUVAS"/>
+                <StringItem index="205" value="&#xd3;CULOS DE SEGURAN&#xc7;A"/>
+                <StringItem index="206" value="CINTOS DE SEGURAN&#xc7;A, ACESS&#xd3;RIOS E CORRELATOS "/>
+                <StringItem index="207" value=" AVENTAIS DE SEGURAN&#xc7;A E CORRELATOS"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="94" green="8f" red="1e" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel19" min="-2" pref="413" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="9" max="32767" attributes="0"/>
+                  <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel19">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="CADASTRO DE DE PRODUTOS"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
